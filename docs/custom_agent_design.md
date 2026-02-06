@@ -19,7 +19,7 @@
 flowchart TD
     subgraph Users [User Interfaces]
         Cline[Cline - Commander]
-        AutoScript[LangGraph - Auto Runner]
+        AutoScript[Agent 框架- Auto Runner]
     end
 
     subgraph Router [Infrastructure]
