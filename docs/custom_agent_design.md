@@ -40,6 +40,7 @@ flowchart TD
         Format[Code VB6 Formatter]
         DB[Memory DB]
         Wiki[Code Wiki]
+        Case[Case Center]
     end
 
     %% Cline Calls
@@ -63,6 +64,7 @@ flowchart TD
     Dev_Service -.->|Uses| Parser
     Dev_Service -.->|Uses| Format
     Dev_Service -.->|Uses| Git
+    Dev_Service -.->|Uses| Case
 ```
 
 > **重點**: 
