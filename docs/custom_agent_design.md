@@ -39,6 +39,7 @@ flowchart TD
         Parser[Code Parser]
         Format[Code VB6 Formatter]
         DB[Memory DB]
+        Wiki[Code Wiki]
     end
 
     %% Cline Calls
@@ -58,6 +59,7 @@ flowchart TD
 
     %% Services use Basic Tools
     PM_Service -.->|Uses| DB
+    PM_Service -.->|Uses| Wiki
     Dev_Service -.->|Uses| Parser
     Dev_Service -.->|Uses| Format
     Dev_Service -.->|Uses| Git
