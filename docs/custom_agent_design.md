@@ -101,7 +101,7 @@ sequenceDiagram
         QA->>Room: 測試失敗，NullPointerException (Reject)
         Dev->>Room: 這是因為資料庫沒 Mock，不是我的錯 (Argue/Explain)
         Arch->>Room: @Dev 你應該加上 Null Check 保護 (Mediate)
-        Dev->>Room: 好吧，我修正 (Fix)
+        Dev->>Room: OK，我修正 (Fix)
     end
 
     Note over Arch, Room: Phase 3: Final Review
