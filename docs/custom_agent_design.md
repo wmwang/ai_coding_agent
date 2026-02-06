@@ -59,6 +59,7 @@ flowchart TD
     %% Services use Basic Tools
     PM_Service -.->|Uses| DB
     Dev_Service -.->|Uses| Parser
+    Dev_Service -.->|Uses| Format
     Dev_Service -.->|Uses| Git
 ```
 
